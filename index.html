@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Icon Paketi-->
+
+    <!--Stil Dosyası-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--Sol Aside Alanı Bailangıç-->
+      <aside id="aside-bar">
+        <!--Aside alanı Logo yazı ve kapatma buton olan yapı-->
+        <div class="top">
+          <!--Logo ve Yazı bulunan kutu-->
+          <div class="logo">
+            <img src="./images/logo.png" alt="" />
+            <h2>FC <span class="danger">CODER</span></h2>
+          </div>
+          <!--Kapatma butonu-->
+          <div class="close" id="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+
+        <!--Side Bar başalngıç-->
+
+        <div class="sidebar">
+          <a href="">
+            <i class="fa-solid fa-border-all"></i>
+            <h3>Kontrol Paneli</h3>
+          </a>
+
+          <a href="" class="active">
+            <i class="fa-regular fa-user"></i>
+            <h3>Müşteriler</h3>
+          </a>
+
+          <a href="./orders.html">
+            <i class="fa-light fa-clipboard-list"></i>
+            <h3>Siparişler</h3>
+          </a>
+
+          <a href="">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Analizler</h3>
+          </a>
+
+          <a href="">
+            <i class="fa-regular fa-envelope"></i>
+            <h3>Mesajlar</h3>
+            <span class="message-count">10</span>
+          </a>
+
+          <a href="">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <h3>Çıkış</h3>
+          </a>
+        </div>
+      </aside>
+
+      <!--aside alanı bitiş-->
+
+      <!--Main alanı başlangıç-->
+
+      <main>
+        <h1>Kontrol Paneli</h1>
+        <div class="date">
+          <input type="date" />
+        </div>
+        <div class="insights">
+          <!--Satışlar -->
+          <div class="sales">
+            <i class="fa-solid fa-chart-line"></i>
+            <div class="middle">
+              <div class="left">
+                <h3>Toplam Satışlar</h3>
+                <h1>50.000$</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">80%</div>
+              </div>
+            </div>
+            <small class="text-muted">Son 24 saat</small>
+          </div>
+
+          <!--Satışlar Bitiş -->
+
+          <!--exepnseswe-->
+          <div class="expenses">
+            <i class="fa-solid fa-chart-line"></i>
+            <div class="middle">
+              <div class="left">
+                <h3>Toplam Satışlar</h3>
+                <h1>50.000$</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">62%</div>
+              </div>
+            </div>
+            <small class="text-muted">Son 24 saat</small>
+          </div>
+
+          <!--expense Bitiş -->
+
+          <!--Income-->
+          <div class="income">
+            <i class="fa-solid fa-chart-line"></i>
+            <div class="middle">
+              <div class="left">
+                <h3>Toplam Satışlar</h3>
+                <h1>50.000$</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">44%</div>
+              </div>
+            </div>
+            <small class="text-muted">Son 24 saat</small>
+          </div>
+
+          <!--incoem Bitiş -->
+        </div>
+      </main>
+
+      <!--Right Bar-->
+
+      <div class="right">
+        <div class="top">
+          <button id="open-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="profile">
+            <div class="info">
+              <p>Selam , <b>Hasan</b></p>
+              <small class="text-muted">Admin</small>
+            </div>
+
+            <div class="profile-photo">
+              <img src="./images/profile-1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="recent-updates">
+          <h1>Son Yenilikler</h1>
+          <div class="updates">
+            <div class="update">
+              <div class="profile-photo">
+                <img src="./images/profile-2.jpg" alt="" />
+              </div>
+              <div class="message">
+                <p><b>Mehmet Can</b> Macbook Sipariş verdi</p>
+                <small class="text-muted">2 dakika önce</small>
+              </div>
+            </div>
+
+            <div class="update">
+              <div class="profile-photo">
+                <img src="./images/profile-3.jpg" alt="" />
+              </div>
+              <div class="message">
+                <p><b>Mehmet Can</b> Macbook Sipariş verdi</p>
+                <small class="text-muted">2 dakika önce</small>
+              </div>
+            </div>
+
+            <div class="update">
+              <div class="profile-photo">
+                <img src="./images/profile-4.jpg" alt="" />
+              </div>
+              <div class="message">
+                <p><b>Mehmet Can</b> Macbook Sipariş verdi</p>
+                <small class="text-muted">2 dakika önce</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
